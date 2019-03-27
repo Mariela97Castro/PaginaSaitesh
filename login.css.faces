@@ -1,0 +1,62 @@
+body {
+background-image: url("/saitesh/javax.faces.resource/WelcomeTesh.jpg.faces?ln=imagenes"); 
+background-repeat: no-repeat; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; 
+min-height: 70%; 
+max-width: 100%;
+}
+
+html {
+    height: 100%
+}
+
+.encabezadoLogin
+{
+    background-image:url("/saitesh/javax.faces.resource/banner_SAI.png.faces?ln=imagenes");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% ; 
+    position: relative; 
+    display: block;
+    text-decoration:none;    
+}
+
+
+
+
+.encabezado
+{
+    background-image:url('http://189.192.220.153/imagenes/reportes/logoGob_Edomex.jpeg'),url('http://189.192.220.153/imagenes/reportes/logoTesh.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: left top, right top ;
+    background-size: 8% ; 
+    position: relative; 
+    display: block;
+    text-decoration:none;    
+    line-height:1.9;
+   
+}
+
+.disp-event, .disp-event .fc-event-skin, .disp-event a{
+    background-color: #A7E522;
+    color: black;
+    border-color: green;
+    font-weight: bold;
+}
+
+.ocupado-event, .ocupado-event .fc-event-skin, .ocupado-event a{
+    background-color: #F94B57;
+    color: black;
+    border-color: red;
+    font-weight: bold;
+}
+
+.reservado-event, .reservado-event .fc-event-skin, .reservado-event a{
+    background-color: #E5E222;
+    color: black;
+    border-color: yellowgreen;
+    font-weight: bold;
+}
